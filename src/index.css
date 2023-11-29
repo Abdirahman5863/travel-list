@@ -16,6 +16,7 @@ body {
   color: #5a3e2b;
   font-family: "Quicksand";
   font-weight: 500;
+  height: 100vh;
 }
 
 .app {
@@ -23,6 +24,9 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
+  @media (max-width: ) {
+    height: 100%;
+  }
 }
 
 h1 {
@@ -74,6 +78,7 @@ input {
   background-color: #5a3e2b;
   color: #ffebb3;
   padding: 4rem 0;
+  /* height: 60vh; */
 
   display: flex;
   justify-content: space-between;
